@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+
+    <!-- Shot -->
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Arc_DOK_TurretTurn</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>50</MaxDistance>
+      <PitchVariation>10</PitchVariation>
+      <PreventSynchronization>1</PreventSynchronization>
+      <Volume>0.5</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Shared\Arc_DOK_TurretTurn_1_Loop.wav</Start>
+          <Loop>Audio\Shared\Arc_DOK_TurretTurn_1_Loop.wav</Loop>
+          <End>Audio\Shared\Arc_DOK_TurretTurn_1_End.wav</End>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\Shared\Arc_DOK_TurretTurn_2_Loop.wav</Start>
+          <Loop>Audio\Shared\Arc_DOK_TurretTurn_2_Loop.wav</Loop>
+          <End>Audio\Shared\Arc_DOK_TurretTurn_2_End.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Real_DOK_TurretTurn</SubtypeId>
+      </Id>
+      <Category>SHOT_R</Category>
+      <MaxDistance>25</MaxDistance>
+      <PitchVariation>10</PitchVariation>
+      <PreventSynchronization>1</PreventSynchronization>
+      <Volume>0.25</Volume>
+      <Loopable>true</Loopable>
+      <RealisticFilter>realShipFilter</RealisticFilter>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Shared\Arc_DOK_TurretTurn_1_Loop.wav</Start>
+          <Loop>Audio\Shared\Arc_DOK_TurretTurn_1_Loop.wav</Loop>
+          <End>Audio\Shared\Arc_DOK_TurretTurn_1_End.wav</End>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\Shared\Arc_DOK_TurretTurn_2_Loop.wav</Start>
+          <Loop>Audio\Shared\Arc_DOK_TurretTurn_2_Loop.wav</Loop>
+          <End>Audio\Shared\Arc_DOK_TurretTurn_2_End.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+  </Sounds>
+</Definitions>
