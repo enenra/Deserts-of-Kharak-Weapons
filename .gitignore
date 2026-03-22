@@ -1,0 +1,7 @@
+# Ignore these file types
+*/OriginalContent/
+**/obj/
+**/bin/
+
+*.mod
+*.sbmi
