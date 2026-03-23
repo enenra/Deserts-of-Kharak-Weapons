@@ -68,7 +68,7 @@
       <Icon>Textures\GUI\Icons\Cubes\DOK_COAL_Logo.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="15" y="5" z="15"/>
+      <Size x="13" y="5" z="13"/>
       <ModelOffset x="0" y="0" z="0"/>
       <Model>Models\Cubes\large\DOK_LG_MN_DualAC.mwm</Model>
       <Components>
