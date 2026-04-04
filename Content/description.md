@@ -15,5 +15,6 @@ This mod currently contains one turret:
 
 * This turret will need more balancing - I've only done some preliminary balancing with it so far.
 * I will probably eventually be making more of the Deserts of Kharak turrets but making these is more of a matter of if I feel like it, and do not have priority over my other modding projects.
+* There will not be a non-WeaponCore version of this mod.
 
 [![](https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png)](https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850)
